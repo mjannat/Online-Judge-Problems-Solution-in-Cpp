@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+unsigned long long russianPeasant(unsigned long long a, unsigned long long b, unsigned long long c) {
+    unsigned long long ret=0;
+    while(b) {
+        if(b&1) {
+            ret += a;
+            ret %= c;
+        }
+        a *= 2;
+        a %= c;
+        b /= 2;
+    }
+    return ret;
+}
+int main()
+{
+    unsigned long long a,b,c;
+    cin >> a >> b >> c;
+    cout << russianPeasant(a,b,c);
+}
