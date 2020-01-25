@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    cout << "If you want to \"sign in\" press 1\n";
+    cout << "If you want to \"Register\" press 2\n";
+
+    cout << "Please Enter Your User name" << endl;
+    string name, encripted_name = "";
+    cin >> name;
+
+    cout << "Please Enter Your Password" << endl;
+    string password, encripted_password;
+    cin >> password;
+
+    for(int i = 0;i < name.size();i++)
+    {
+     int tmp = name[i];
+     stringstream ss;
+     ss >> tmp;
+     encripted_name += ss.str();
+    }
+    cout << "Welcome :)\n";
+    return 0;
+}
