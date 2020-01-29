@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1564296381 source:c:\users\mim jannat\documents\bresenhamcircle\main.cpp
+	<stdio.h>
+	<conio.h>
+	<graphics.h>
+

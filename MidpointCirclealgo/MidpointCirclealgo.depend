@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1564380070 source:c:\users\mim jannat\documents\midpointcirclealgo\main.cpp
+	<stdio.h>
+	<conio.h>
+	<graphics.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1564292017 source:c:\users\mim jannat\documents\graphcslinealgo\main.cpp
+	<iostream>
+	<graphics.h>
+
